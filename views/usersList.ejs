@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head',{title: 'List users'}) %>
+
+  <body>
+    <%- include('./partials/header',{position:"fixed"}) %>
+      <main class="mt-5">
+        <table class="table table-light">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Apellido</th>
+              <th scope="col">Email</th>
+              <th scope="col">Genero</th>
+              <th scope="col">Password</th>
+              <th scope="col">Avatar</th>
+              <th scope="col">Dirección</th>
+              <th scope="col">CRUD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% users.forEach(({id, first_name, last_name, email, gender, password, avatar, address})=> { %>
+              <tr id="<%= id %>">
+                <th scope="row">
+                  <%= id %>
+                </th>
+                <td><%= first_name %></td>
+                <td><%= last_name %></td>
+                <td><%= email %></td>
+                <td><%= gender %></td>
+                <td><%= password %></td>
+                <td>
+                  <img src="<%= avatar %>" alt="--" style="width: 50px;">
+                 </td>
+                <td><%= address %></td>
+                <td>
+                  <form action="/delete/<%= id %>?_method=DELETE" method="post">
+                    <button type="submit" class="btn btn-danger">Del</button>
+                  </form>
+                  <a href="/edit/<%= id %>" class="btn btn-warning">Edit</a>
+                </td>
+              </tr>
+              <% }) %>
+          </tbody>
+        </table>
+      </main>
+  </body>
+</html>

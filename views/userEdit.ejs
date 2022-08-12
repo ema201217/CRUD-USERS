@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head',{title:'User Edit'}) %>
+
+  <body>
+    <%- include('./partials/header',{position:"relative"}) %>
+
+      <main class="mt-5">
+        <div class="container">
+
+          <form class="row col-8 m-auto mt-4" action="/update/<%= user.id %>?_method=PUT" method="POST">
+            <div class="mb-3 col-12">
+              <label class="form-label">email</label>
+              <input type="email" class="form-control" name="email" disabled value="<%= user.email %>">
+            </div>
+
+            <div class="mb-3 col-12">
+              <label class="form-label">Password</label>
+              <input type="password" class="form-control" name="password" disabled value="<%= user.password %>">
+            </div>
+            <div class="mb-3 col-12">
+              <label class="form-label">Nombre</label>
+              <input type="text" class="form-control" name="first_name" value="<%= user.first_name %>">
+            </div>
+
+            <div class="mb-3 col-12">
+              <label class="form-label">Apellido</label>
+              <input type="text" class="form-control" name="last_name" value="<%= user.last_name %>">
+            </div>
+            <div class="mb-3 col-12">
+              <label class="form-label">Genero</label>
+              <input type="text" class="form-control" name="gender" value="<%= user.gender %>">
+            </div>
+
+            <div class="mb-3 col-12">
+              <label class="form-label">avatar</label>
+              <input type="text" class="form-control" name="avatar" value="<%= user.avatar %>">
+              <img src="<%= user.avatar %>" alt="" style="width:200px ;">
+            </div>
+            <div class="mb-3 col-12">
+              <label class="form-label">Dirección</label>
+              <input type="text" class="form-control" name="address" value="<%= user.address %>">
+            </div>
+
+
+            <button type="submit" class="btn btn-success col-12">Guardar Cambios</button>
+          </form>
+        </div>
+      </main>
+  </body>
+
+</html>
