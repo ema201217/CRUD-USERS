@@ -1,72 +1,12 @@
 [
    {
-      "id": 1,
-      "first_name": "Frank",
-      "last_name": "Stearndale",
-      "email": "fstearndale0@cbsnews.com",
-      "gender": "Female",
-      "password": "2G3HE74gzhI",
-      "avatar": "https://robohash.org/isteminimaquasi.png?size=50x50&set=set1",
-      "address": "64 Golf Course Plaza"
-   },
-   {
-      "id": 3,
-      "first_name": "Ame",
-      "last_name": "Berkeley",
-      "email": "aberkeley2@alexa.com",
-      "gender": "Female",
-      "password": "CjqxZCatg",
-      "avatar": "https://robohash.org/iureaid.png?size=50x50&set=set1",
-      "address": "060 Butterfield Circle"
-   },
-   {
-      "id": 4,
-      "first_name": "Ardeen",
-      "last_name": "Larchier",
-      "email": "alarchier3@jimdo.com",
-      "gender": "Female",
-      "password": "OMyKKBU00l",
-      "avatar": "https://robohash.org/officiaquiquo.png?size=50x50&set=set1",
-      "address": "4172 Northview Junction"
-   },
-   {
-      "id": 5,
-      "first_name": "Fransisco",
-      "last_name": "Nibley",
-      "email": "fnibley4@hugedomains.com",
-      "gender": "Male",
-      "password": "5o4ukHI",
-      "avatar": "https://robohash.org/quidemeligendiaut.png?size=50x50&set=set1",
-      "address": "25 Stephen Terrace"
-   },
-   {
-      "id": 6,
-      "first_name": "Allie",
-      "last_name": "Canton",
-      "email": "acanton5@sbwire.com",
-      "gender": "Genderqueer",
-      "password": "xMM1L5",
-      "avatar": "https://robohash.org/harumrationevelit.png?size=50x50&set=set1",
-      "address": "2 Bayside Plaza"
-   },
-   {
-      "id": 7,
-      "first_name": "Rosy",
-      "last_name": "Dankersley",
-      "email": "rdankersley6@ca.gov",
-      "gender": "Female",
-      "password": "vPD3TcEJ",
-      "avatar": "https://robohash.org/totamdebitisincidunt.png?size=50x50&set=set1",
-      "address": "53412 Oak Crossing"
-   },
-   {
       "id": 8,
       "first_name": "Andres",
       "last_name": "Solan",
       "email": "asolan7@prnewswire.com",
       "gender": "Male",
       "password": "mrw6dG",
-      "avatar": "https://robohash.org/eumsuntexpedita.png?size=50x50&set=set1",
+      "avatar": "avatar-1660341562721.png",
       "address": "9272 Miller Court"
    },
    {

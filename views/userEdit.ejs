@@ -5,45 +5,57 @@
   <body>
     <%- include('./partials/header',{position:"relative"}) %>
 
-      <main class="mt-5">
+      <main class="my-5">
         <div class="container">
 
-          <form class="row col-8 m-auto mt-4" action="/update/<%= user.id %>?_method=PUT" method="POST">
-            <div class="mb-3 col-12">
-              <label class="form-label">email</label>
+          <form class="row col-5 m-auto mt-4" action="/update/<%= user.id %>?_method=PUT" method="POST"
+            enctype="multipart/form-data">
+
+            <div class="col-8 m-auto">
+              <img class="img-avatar" src="<%= /http/.test(user.avatar) ? user.avatar : "/images/avatars/" + user.avatar %>" alt="--">
+            </div>
+
+            <div class="mb-3 col-6">
+              <label class="form-label">Email</label>
               <input type="email" class="form-control" name="email" disabled value="<%= user.email %>">
             </div>
 
-            <div class="mb-3 col-12">
+            <div class="mb-3 col-6">
               <label class="form-label">Password</label>
               <input type="password" class="form-control" name="password" disabled value="<%= user.password %>">
             </div>
-            <div class="mb-3 col-12">
+            <div class="mb-3 col-6">
               <label class="form-label">Nombre</label>
               <input type="text" class="form-control" name="first_name" value="<%= user.first_name %>">
             </div>
 
-            <div class="mb-3 col-12">
+            <div class="mb-3 col-6">
               <label class="form-label">Apellido</label>
               <input type="text" class="form-control" name="last_name" value="<%= user.last_name %>">
             </div>
-            <div class="mb-3 col-12">
+            <div class="mb-3 col-6">
               <label class="form-label">Genero</label>
               <input type="text" class="form-control" name="gender" value="<%= user.gender %>">
             </div>
 
-            <div class="mb-3 col-12">
-              <label class="form-label">avatar</label>
-              <input type="text" class="form-control" name="avatar" value="<%= user.avatar %>">
-              <img src="<%= user.avatar %>" alt="" style="width:200px ;">
-            </div>
-            <div class="mb-3 col-12">
+
+            <div class="mb-3 col-6">
               <label class="form-label">Dirección</label>
               <input type="text" class="form-control" name="address" value="<%= user.address %>">
             </div>
-
-
-            <button type="submit" class="btn btn-success col-12">Guardar Cambios</button>
+            <div class="mb-3 col-12">
+              <div class="form-group my-3">
+                <label class="form-label">Avatar</label>
+                <input type="text" class="form-control" name="avatarText" placeholder="Ingresa una url valida de imagen"
+                  value="<%= /http/.test(user.avatar) ? user.avatar :'' %>">
+              </div>
+              <div class="form-group my-3">
+                <input type="file" class="form-control" name="avatar">
+              </div>
+            </div>
+            <div class="mb-3 col-6 offset-4">
+              <button type="submit" class="btn btn-success">Guardar Cambios</button>
+            </div>
           </form>
         </div>
       </main>
