@@ -14,8 +14,10 @@
             <div class="row col-12 m-auto">
               <img class="col-6 img-avatar" src="<%= /http/.test(user.avatar) ? user.avatar : " /images/avatars/" +
                 user.avatar %>" alt="--">
-              <img class="col-6 img-avatar" src="<%= /http/.test(user.gallery) ? user.gallery : " /images/avatars/" +
-                user.gallery %>" alt="--">
+              <% if(user.gallery){ %>
+                <img class="col-6 img-avatar" src="<%= /http/.test(user.gallery) ? user.gallery : " /images/avatars/" +
+                  user.gallery %>" alt="--">
+                <% } %>
             </div>
 
             <div class="mb-3 col-6">
@@ -47,27 +49,45 @@
               <input type="text" class="form-control" name="address" value="<%= user.address %>">
             </div>
             <div class="mb-3 col-12">
-              <div class="form-group my-3">
-                <label class="form-label">Avatar</label>
-                <input type="text" class="form-control" name="avatarText" placeholder="Ingresa una url valida de imagen" id="avatar-input-url"
-                  value="<%= /http/.test(user.avatar) ? user.avatar :'' %>">
+              <hr>
+              <h3 class="mt-5 text-center">Avatar</h3>
+
+              <div class="form-floating my-3">
+                <input type="text" class="form-control" name="avatarText" placeholder="Ingresa una url valida de imagen"
+                  id="avatar-input-url" value="<%= /http/.test(user.avatar) ? user.avatar :'' %>">
+                <label class="">Ingresa una url valida de imagen</label>
               </div>
+
               <div class="form-group my-3">
-                <img src="<%= /http/.test(user.avatar) ? user.avatar : "/images/avatars/" + user.avatar %>"
-                id="img-avatar" alt="" class="img-avatar">
-                <input type="file" class="form-control" name="avatar" id="avatar-input">
-                <output class="d-block text-end text-dark">
-                  <%= user.avatar %>
+                <div class="text-end">
+                  <img src="<%= /http/.test(user.avatar) ? user.avatar : " /images/avatars/" + user.avatar %>"
+                  id="img-avatar" alt="" class="img-avatar">
+                  <span class="btn btn-sm btn-outline-info" id="btn-reset-avatar">Reset Image</span>
+                </div>
+                <output class="d-block text-end">
+                  <span class="text-primary">Old filename: </span>
+                  <%= recut(user.avatar) %>
                 </output>
+                <input type="file" accept="image/*" class="form-control" name="avatar" id="avatar-input">
               </div>
+
               <div class="form-group my-3">
-                <label class="form-label">Gallery</label>
-                <img src="<%= /http/.test(user.gallery) ? user.gallery : " /images/avatars/" + user.gallery %>"
-                id="img-gallery" alt="" class="img-gallery">
-                <input type="file" class="form-control" name="gallery" id="gallery-input">
-                <output class="d-block text-end text-dark">
-                  <%= user.gallery %>
-                </output>
+                <hr>
+                <h3 class="mt-5 text-center">Gallery</h3>
+                <div class="form-group">
+                  <div class="text-end">
+                    <img src="<%= user.gallery ? (/http/.test(user.gallery) ? user.gallery : " /images/avatars/" +
+                      user.gallery) : "https://avalos.sv/wp-content/uploads/default-featured-image.png" %>"
+                    id="img-gallery" alt="" class="img-gallery">
+                    <span class="btn btn-sm btn-outline-info" id="btn-reset-gallery">Reset Image</span>
+                  </div>
+                  <output class="d-block text-end">
+                    <span class="text-primary">Old filename: </span>
+                    <%= recut(user.avatar) %>
+                  </output>
+                  <input type="file" accept="image/*" class="form-control" name="gallery" id="gallery-input">
+                </div>
+
               </div>
             </div>
             <div class="mb-3 col-6 offset-4">

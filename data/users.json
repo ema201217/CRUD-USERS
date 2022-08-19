@@ -1,25 +1,14 @@
 [
    {
-      "id": 8,
-      "first_name": "Emanuel",
-      "last_name": "Arroyo",
-      "email": "asolan7@prnewswire.com",
-      "gender": "Masculino",
-      "password": "mrw6dG",
-      "avatar": "https://img.freepik.com/vector-gratis/video-juegos-neon-controlador-texto_1262-16218.jpg?w=2000",
-      "address": "Letonia",
-      "gallery": ""
-   },
-   {
       "id": 9,
       "first_name": "Kelsi",
       "last_name": "Mansford",
       "email": "kmansford8@printfriendly.com",
       "gender": "Female",
       "password": "Lp2LCwJA0ic",
-      "avatar": "https://robohash.org/assumendapraesentiumvoluptatibus.png?size=50x50&set=set1",
+      "avatar": "The-King-of-Fighters.jpg-1660943431329.jpg",
       "address": "0 Southridge Point",
-      "gallery": ""
+      "gallery": "kyo.png-1660942571986.png"
    },
    {
       "id": 10,
@@ -41,18 +30,7 @@
       "password": "ERNRjyy",
       "avatar": "https://robohash.org/laboriosamesterror.png?size=50x50&set=set1",
       "address": "1 Clemons Alley",
-      "gallery": ""
-   },
-   {
-      "id": 12,
-      "first_name": "Adela",
-      "last_name": "Dell Casa",
-      "email": "adellcasab@umn.edu",
-      "gender": "Female",
-      "password": "qLLeG7lI",
-      "avatar": "https://img.freepik.com/vector-gratis/video-juegos-neon-controlador-texto_1262-16218.jpg?w=2000",
-      "address": "88265 Dennis Road",
-      "gallery": "gallery-1660931774020.png"
+      "gallery": "The-King-of-Fighters.jpg-1660946369280.jpg"
    },
    {
       "id": 13,
@@ -107,7 +85,7 @@
       "password": "87T1QygH6Z",
       "avatar": "https://robohash.org/voluptasetnulla.png?size=50x50&set=set1",
       "address": "310 Bobwhite Road",
-      "gallery": ""
+      "gallery": "https://aaahockey.org/wp-content/uploads/2017/06/default-avatar-300x300.png"
    },
    {
       "id": 18,
@@ -202,11 +180,11 @@
       "first_name": "Robinson",
       "last_name": "McCuffie",
       "email": "rmccuffiep@myspace.com",
-      "gender": "Male",
+      "gender": "",
       "password": "SHluLOVQAc",
-      "avatar": "https://robohash.org/utatsaepe.png?size=50x50&set=set1",
+      "avatar": "https://img.freepik.com/vector-gratis/video-juegos-neon-controlador-texto_1262-16218.jpg?w=2000",
       "address": "57801 Saint Paul Terrace",
-      "gallery": ""
+      "gallery": "Call of Duty  Modern Warfare 2019 Screenshot 2022.08.15 - 22.55.43.46.png-1660942423610.png"
    },
    {
       "id": 27,
@@ -239,6 +217,6 @@
       "password": "g12v8b8w6GSt",
       "avatar": "https://robohash.org/expeditaquosincidunt.png?size=50x50&set=set1",
       "address": "6 Duke Court",
-      "gallery": ""
+      "gallery": "Call of Duty  Modern Warfare 2019 Screenshot 2022.08.15 - 22.32.09.47.png-1660942530689.png"
    }
 ]

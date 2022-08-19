@@ -60,8 +60,10 @@ module.exports = {
   userEdit: (req, res) => {
     const userIdParams = +req.params.id;
     const users = getUsers();
+    const recut = (text = "text") =>
+      text.length > 25 ? text.substring(0, 25) + "..." : text;
     const userFind = users.find((user) => user.id === userIdParams);
-    return res.render("userEdit", { user: userFind });
+    return res.render("userEdit", { user: userFind, recut });
   },
 
   userUpdated: (req, res) => {
@@ -71,7 +73,7 @@ module.exports = {
       req.files["gallery"] !== undefined && req.files["gallery"][0];
     const avatar = req.files["avatar"] !== undefined && req.files["avatar"][0];
     const { first_name, last_name, gender, avatarText, address } = req.body;
-    //  return res.send(req.files) // {}
+    //  return res.send(req.files) // {
 
     const usersUpdated = users.map((user) => {
       if (user.id === userId) {

@@ -20,7 +20,7 @@
             </tr>
           </thead>
           <tbody>
-            <% users.forEach(({id, first_name, last_name, email, gender, password, avatar, address})=> { %>
+            <% users.forEach(({id, first_name, last_name, email, gender, password, avatar, address,gallery})=> { %>
               <tr id="<%= id %>">
                 <th scope="row">
                   <%= id %>
@@ -43,6 +43,10 @@
                 <td>
                   <img src="<%= /http/.test(avatar) ? avatar : " ./images/avatars/" + avatar %>" alt="--" style="width:
                   50px;">
+                  <% if(gallery){ %>
+                    <img src="<%= /http/.test(gallery) ? gallery : " ./images/avatars/" + gallery %>" alt="--"
+                    style="width:50px;">
+                    <% } %>
                 </td>
                 <td>
                   <%= address %>
