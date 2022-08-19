@@ -11,8 +11,11 @@
           <form class="row col-5 m-auto mt-4" action="/update/<%= user.id %>?_method=PUT" method="POST"
             enctype="multipart/form-data">
 
-            <div class="col-8 m-auto">
-              <img class="img-avatar" src="<%= /http/.test(user.avatar) ? user.avatar : "/images/avatars/" + user.avatar %>" alt="--">
+            <div class="row col-12 m-auto">
+              <img class="col-6 img-avatar" src="<%= /http/.test(user.avatar) ? user.avatar : " /images/avatars/" +
+                user.avatar %>" alt="--">
+              <img class="col-6 img-avatar" src="<%= /http/.test(user.gallery) ? user.gallery : " /images/avatars/" +
+                user.gallery %>" alt="--">
             </div>
 
             <div class="mb-3 col-6">
@@ -46,11 +49,25 @@
             <div class="mb-3 col-12">
               <div class="form-group my-3">
                 <label class="form-label">Avatar</label>
-                <input type="text" class="form-control" name="avatarText" placeholder="Ingresa una url valida de imagen"
+                <input type="text" class="form-control" name="avatarText" placeholder="Ingresa una url valida de imagen" id="avatar-input-url"
                   value="<%= /http/.test(user.avatar) ? user.avatar :'' %>">
               </div>
               <div class="form-group my-3">
-                <input type="file" class="form-control" name="avatar">
+                <img src="<%= /http/.test(user.avatar) ? user.avatar : "/images/avatars/" + user.avatar %>"
+                id="img-avatar" alt="" class="img-avatar">
+                <input type="file" class="form-control" name="avatar" id="avatar-input">
+                <output class="d-block text-end text-dark">
+                  <%= user.avatar %>
+                </output>
+              </div>
+              <div class="form-group my-3">
+                <label class="form-label">Gallery</label>
+                <img src="<%= /http/.test(user.gallery) ? user.gallery : " /images/avatars/" + user.gallery %>"
+                id="img-gallery" alt="" class="img-gallery">
+                <input type="file" class="form-control" name="gallery" id="gallery-input">
+                <output class="d-block text-end text-dark">
+                  <%= user.gallery %>
+                </output>
               </div>
             </div>
             <div class="mb-3 col-6 offset-4">

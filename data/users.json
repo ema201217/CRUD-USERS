@@ -1,13 +1,14 @@
 [
    {
       "id": 8,
-      "first_name": "Andres",
-      "last_name": "Solan",
+      "first_name": "Emanuel",
+      "last_name": "Arroyo",
       "email": "asolan7@prnewswire.com",
-      "gender": "Male",
+      "gender": "Masculino",
       "password": "mrw6dG",
-      "avatar": "avatar-1660341562721.png",
-      "address": "9272 Miller Court"
+      "avatar": "https://img.freepik.com/vector-gratis/video-juegos-neon-controlador-texto_1262-16218.jpg?w=2000",
+      "address": "Letonia",
+      "gallery": ""
    },
    {
       "id": 9,
@@ -17,7 +18,8 @@
       "gender": "Female",
       "password": "Lp2LCwJA0ic",
       "avatar": "https://robohash.org/assumendapraesentiumvoluptatibus.png?size=50x50&set=set1",
-      "address": "0 Southridge Point"
+      "address": "0 Southridge Point",
+      "gallery": ""
    },
    {
       "id": 10,
@@ -27,7 +29,8 @@
       "gender": "Male",
       "password": "PQDmpVW",
       "avatar": "https://robohash.org/debitiseligendireiciendis.png?size=50x50&set=set1",
-      "address": "79403 Stuart Road"
+      "address": "79403 Stuart Road",
+      "gallery": ""
    },
    {
       "id": 11,
@@ -37,7 +40,8 @@
       "gender": "Male",
       "password": "ERNRjyy",
       "avatar": "https://robohash.org/laboriosamesterror.png?size=50x50&set=set1",
-      "address": "1 Clemons Alley"
+      "address": "1 Clemons Alley",
+      "gallery": ""
    },
    {
       "id": 12,
@@ -46,8 +50,9 @@
       "email": "adellcasab@umn.edu",
       "gender": "Female",
       "password": "qLLeG7lI",
-      "avatar": "https://robohash.org/temporeadvero.png?size=50x50&set=set1",
-      "address": "88265 Dennis Road"
+      "avatar": "https://img.freepik.com/vector-gratis/video-juegos-neon-controlador-texto_1262-16218.jpg?w=2000",
+      "address": "88265 Dennis Road",
+      "gallery": "gallery-1660931774020.png"
    },
    {
       "id": 13,
@@ -57,7 +62,8 @@
       "gender": "Male",
       "password": "tDcvZFV3Fk",
       "avatar": "https://robohash.org/doloresofficiiset.png?size=50x50&set=set1",
-      "address": "01592 Atwood Alley"
+      "address": "01592 Atwood Alley",
+      "gallery": ""
    },
    {
       "id": 14,
@@ -67,7 +73,8 @@
       "gender": "Female",
       "password": "P4hW1x",
       "avatar": "https://robohash.org/etquitempora.png?size=50x50&set=set1",
-      "address": "504 Sachtjen Parkway"
+      "address": "504 Sachtjen Parkway",
+      "gallery": ""
    },
    {
       "id": 15,
@@ -77,7 +84,8 @@
       "gender": "Male",
       "password": "tKyJMH5Xf9X",
       "avatar": "https://robohash.org/etvelnesciunt.png?size=50x50&set=set1",
-      "address": "2 Pleasure Terrace"
+      "address": "2 Pleasure Terrace",
+      "gallery": ""
    },
    {
       "id": 16,
@@ -87,7 +95,8 @@
       "gender": "Male",
       "password": "nbsH2XGS5BxQ",
       "avatar": "https://robohash.org/minuseumeos.png?size=50x50&set=set1",
-      "address": "3207 Vernon Circle"
+      "address": "3207 Vernon Circle",
+      "gallery": ""
    },
    {
       "id": 17,
@@ -97,7 +106,8 @@
       "gender": "Female",
       "password": "87T1QygH6Z",
       "avatar": "https://robohash.org/voluptasetnulla.png?size=50x50&set=set1",
-      "address": "310 Bobwhite Road"
+      "address": "310 Bobwhite Road",
+      "gallery": ""
    },
    {
       "id": 18,
@@ -107,7 +117,8 @@
       "gender": "Female",
       "password": "z1bcNTJg",
       "avatar": "https://robohash.org/impeditnobismodi.png?size=50x50&set=set1",
-      "address": "108 Rieder Court"
+      "address": "108 Rieder Court",
+      "gallery": ""
    },
    {
       "id": 19,
@@ -117,7 +128,8 @@
       "gender": "Male",
       "password": "fvWmQW",
       "avatar": "https://robohash.org/quiutodio.png?size=50x50&set=set1",
-      "address": "062 Meadow Valley Trail"
+      "address": "062 Meadow Valley Trail",
+      "gallery": ""
    },
    {
       "id": 20,
@@ -127,7 +139,8 @@
       "gender": "Female",
       "password": "zCSecwc2l",
       "avatar": "https://robohash.org/nisilaboredolore.png?size=50x50&set=set1",
-      "address": "477 Acker Pass"
+      "address": "477 Acker Pass",
+      "gallery": ""
    },
    {
       "id": 21,
@@ -137,7 +150,8 @@
       "gender": "Non-binary",
       "password": "ujPHnrX",
       "avatar": "https://robohash.org/autlaboriosamquia.png?size=50x50&set=set1",
-      "address": "888 Warbler Crossing"
+      "address": "888 Warbler Crossing",
+      "gallery": ""
    },
    {
       "id": 22,
@@ -147,7 +161,8 @@
       "gender": "Female",
       "password": "7v06lwt",
       "avatar": "https://robohash.org/ducimusetautem.png?size=50x50&set=set1",
-      "address": "78443 Claremont Place"
+      "address": "78443 Claremont Place",
+      "gallery": ""
    },
    {
       "id": 23,
@@ -157,7 +172,8 @@
       "gender": "Polygender",
       "password": "QbfAGxBt",
       "avatar": "https://robohash.org/undeatquevoluptatem.png?size=50x50&set=set1",
-      "address": "54 Calypso Park"
+      "address": "54 Calypso Park",
+      "gallery": ""
    },
    {
       "id": 24,
@@ -167,7 +183,8 @@
       "gender": "Bigender",
       "password": "Cb9mjsfuFe",
       "avatar": "https://robohash.org/debitismolestiaeillo.png?size=50x50&set=set1",
-      "address": "8 Kipling Lane"
+      "address": "8 Kipling Lane",
+      "gallery": ""
    },
    {
       "id": 25,
@@ -177,7 +194,8 @@
       "gender": "Female",
       "password": "BFAWmIJgHpo",
       "avatar": "https://robohash.org/officiisdoloremodi.png?size=50x50&set=set1",
-      "address": "5811 Northport Drive"
+      "address": "5811 Northport Drive",
+      "gallery": ""
    },
    {
       "id": 26,
@@ -187,7 +205,8 @@
       "gender": "Male",
       "password": "SHluLOVQAc",
       "avatar": "https://robohash.org/utatsaepe.png?size=50x50&set=set1",
-      "address": "57801 Saint Paul Terrace"
+      "address": "57801 Saint Paul Terrace",
+      "gallery": ""
    },
    {
       "id": 27,
@@ -197,7 +216,8 @@
       "gender": "Male",
       "password": "AwcfkXuVnjS",
       "avatar": "https://robohash.org/harumvelhic.png?size=50x50&set=set1",
-      "address": "650 South Trail"
+      "address": "650 South Trail",
+      "gallery": ""
    },
    {
       "id": 29,
@@ -207,7 +227,8 @@
       "gender": "Male",
       "password": "3AEeKB",
       "avatar": "https://robohash.org/quiaveritatiset.png?size=50x50&set=set1",
-      "address": "20 Anthes Alley"
+      "address": "20 Anthes Alley",
+      "gallery": ""
    },
    {
       "id": 30,
@@ -217,6 +238,7 @@
       "gender": "Female",
       "password": "g12v8b8w6GSt",
       "avatar": "https://robohash.org/expeditaquosincidunt.png?size=50x50&set=set1",
-      "address": "6 Duke Court"
+      "address": "6 Duke Court",
+      "gallery": ""
    }
 ]
