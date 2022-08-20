@@ -6,9 +6,9 @@
       "email": "kmansford8@printfriendly.com",
       "gender": "Female",
       "password": "Lp2LCwJA0ic",
-      "avatar": "The-King-of-Fighters.jpg-1660943431329.jpg",
+      "avatar": "https://img.freepik.com/vector-gratis/video-juegos-neon-controlador-texto_1262-16218.jpg?w=2000",
       "address": "0 Southridge Point",
-      "gallery": "kyo.png-1660942571986.png"
+      "gallery": "Omega.Rugal.full.3614456.jpg-1660958292559.jpg"
    },
    {
       "id": 10,
@@ -30,7 +30,7 @@
       "password": "ERNRjyy",
       "avatar": "https://robohash.org/laboriosamesterror.png?size=50x50&set=set1",
       "address": "1 Clemons Alley",
-      "gallery": "The-King-of-Fighters.jpg-1660946369280.jpg"
+      "gallery": "texture.jpg-1660958303702.jpg"
    },
    {
       "id": 13,
@@ -176,17 +176,6 @@
       "gallery": ""
    },
    {
-      "id": 26,
-      "first_name": "Robinson",
-      "last_name": "McCuffie",
-      "email": "rmccuffiep@myspace.com",
-      "gender": "",
-      "password": "SHluLOVQAc",
-      "avatar": "https://img.freepik.com/vector-gratis/video-juegos-neon-controlador-texto_1262-16218.jpg?w=2000",
-      "address": "57801 Saint Paul Terrace",
-      "gallery": "Call of Duty  Modern Warfare 2019 Screenshot 2022.08.15 - 22.55.43.46.png-1660942423610.png"
-   },
-   {
       "id": 27,
       "first_name": "Adams",
       "last_name": "Davet",
@@ -217,6 +206,6 @@
       "password": "g12v8b8w6GSt",
       "avatar": "https://robohash.org/expeditaquosincidunt.png?size=50x50&set=set1",
       "address": "6 Duke Court",
-      "gallery": "Call of Duty  Modern Warfare 2019 Screenshot 2022.08.15 - 22.32.09.47.png-1660942530689.png"
+      "gallery": "The-King-of-Fighters.jpg-1660958328795.jpg"
    }
 ]
